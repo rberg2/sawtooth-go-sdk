@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	zmq "github.com/pebbe/zmq4"
-	"sawtooth-go-sdk/messaging"
-	"sawtooth-go-sdk/protobuf/processor_pb2"
-	"sawtooth-go-sdk/protobuf/transaction_pb2"
-	"sawtooth-go-sdk/protobuf/validator_pb2"
+	"sawtooth_sdk/messaging"
+	"sawtooth_sdk/protobuf/processor_pb2"
+	"sawtooth_sdk/protobuf/transaction_pb2"
+	"sawtooth_sdk/protobuf/validator_pb2"
 )
 
 // The main worker thread finds an appropriate handler and processes the request
