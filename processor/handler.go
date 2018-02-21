@@ -27,7 +27,7 @@
 package processor
 
 import (
-	"sawtooth_sdk/protobuf/processor_pb2"
+	"sawtooth-go-sdk/protobuf/processor_pb2"
 )
 
 // TransactionHandler is the interface that defines the business logic for a
